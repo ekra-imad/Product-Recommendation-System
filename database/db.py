@@ -4,7 +4,7 @@ def get_connection():
     return mysql.connector.connect(
         host="127.0.0.1",
         port=3306,
-        user="ROOT",
-        password="root",
+        user="root",
+        password="ROOT",
         database="product_recommendation_db"
     )
