@@ -6,5 +6,5 @@ def get_connection():
         port=3306,
         user="root",
         password="root",
-        database="productRecommendation_db"
+        database="product_recommendation_db"
     )
