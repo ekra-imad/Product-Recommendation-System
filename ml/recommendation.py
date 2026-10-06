@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Load dataset
 df = pd.read_csv("products.csv")
 
-# Remove $ from price column if present
+# Remove $ from price column if present --
 df["price"] = (
     df["price"]
     .astype(str)
